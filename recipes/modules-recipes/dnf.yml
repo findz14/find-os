@@ -9,6 +9,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - bieszczaders/kernel-cachyos
     install:
       packages:
         - micro
@@ -27,6 +28,8 @@ modules:
         - virt-viewer
         - virt-install
         - firewall-config
+        - kernel-cachyos
+        - kernel-cachyos-devel-matched
 
     remove:
       packages:
