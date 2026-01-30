@@ -13,4 +13,17 @@ modules:
   - from-file: modules-recipes/dnf.yml
   - from-file: modules-recipes/flatpak.yml
   - from-file: modules-recipes/rpm-ostree.yml
+    # kernel selection
+  # select ONE of the following from-file line
+  # or leave all three uncommented to use stock fedora kernel
+  # ---
+  # - from-file: bazzite.yml 
+  - from-file: cachy.yml
+
+
+  # image-specific packages module
+  # base/core packages are all handled by solarpowered-raw
+  # and should not be added here.
+  # systemd services related to image-specific packages
+  # may also be placed within this module for simplicity
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
