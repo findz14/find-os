@@ -38,6 +38,8 @@ modules:
         - virt-top
         - virt-viewer
         - virt-install
+        - docker
+        - distrobox
 
     remove:
       packages:
@@ -80,6 +82,7 @@ modules:
           - org.virt_manager.virt-manager
           - org.libreoffice.LibreOffice
           - com.vivaldi.Vivaldi
+          - com.ranfdev.DistroShelf
           
       - scope: user # Also add Flathub user repo, but no user packages
 
