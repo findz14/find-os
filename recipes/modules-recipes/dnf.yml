@@ -16,17 +16,17 @@ modules:
         - starship
         - gnome-tweaks
         - wireshark
-        - gns3-gui
-        - gns3-server
-        - iptables
-        - libvirt-daemon-config-network
-        - libvirt-daemon-kvm
-        - qemu-kvm   
-        - libguestfs-tools
-        - python3-libguestfs
-        - virt-top
-        - virt-viewer
-        - virt-install
+        #- gns3-gui
+        #- gns3-server
+        #- iptables
+        #- libvirt-daemon-config-network
+        #- libvirt-daemon-kvm
+        #- qemu-kvm   
+        #- libguestfs-tools
+        #- python3-libguestfs
+        #- virt-top
+        #- virt-viewer
+        #- virt-install
         - firewall-config
 
     remove:
@@ -35,3 +35,4 @@ modules:
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - software
