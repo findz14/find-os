@@ -12,10 +12,6 @@ modules:
         
     install:
       packages:
-        - micro
-        - starship
-        - gnome-tweaks
-        - wireshark
         #- gns3-gui
         #- gns3-server
         #- iptables
@@ -27,7 +23,6 @@ modules:
         #- virt-top
         #- virt-viewer
         #- virt-install
-        - firewall-config
 
     remove:
       packages:
