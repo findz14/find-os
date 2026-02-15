@@ -39,6 +39,24 @@ modules:
           - io.github.flattool.Warehouse
           - page.tesk.Refine
           - io.github.kolunmi.Bazaar
+          - org.gnome.Loupe
+          - org.gnome.Calculator
+          - org.gnome.Calendar
+          - org.gnome.Characters
+          - com.mattjakeman.ExtensionManager
+          - org.gnome.Contacts
+          - org.gnome.Connections
+          - org.gnome.Logs
+          - org.gnome.Maps
+          - org.gnome.Papers
+          - org.gnome.Snapshot
+          - org.gnome.TextEditor
+          - org.gnome.Weather
+          - org.gnome.baobab
+          - org.gnome.clocks
+          - org.gnome.font-viewer
+          - org.fedoraproject.MediaWriter
+          - org.gnome.TextEditor
 
   # image-specific packages module
   # base/core packages are all handled by solarpowered-raw
