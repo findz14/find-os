@@ -14,13 +14,13 @@ modules:
         #- micro
         #- starship
         #- gnome-tweaks
-        #- wireshark
-        #- gns3-gui
-        #- gns3-server
-        #- iptables
+        - wireshark
+        - gns3-gui
+        - gns3-server
+        - iptables
         #- libvirt-daemon-config-network
         #- libvirt-daemon-kvm
-        #- qemu-kvm   
+        - qemu-kvm   
         #- libguestfs-tools
         #- python3-libguestfs
         #- virt-top
